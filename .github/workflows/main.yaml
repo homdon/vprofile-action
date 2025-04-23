@@ -28,7 +28,7 @@ jobs:
 
       # setup sonar-scanner cli
       - name: set SonarQube
-        uses: warchant/setup-soanr-scanner@v7
+        uses: warchant/setup-sonar-scanner@v7
 
 
        # Run sonar-scanner
