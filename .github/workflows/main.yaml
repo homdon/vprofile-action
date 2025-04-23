@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Maven test
-        uses: mvn test
+        run: mvn test
 
       - name: Checkstyle
-        uses: mvn checkstyle:checkdtyle
+        run: mvn checkstyle:checkdtyle
 
       # setup java 11 to be default (sonar scanner requirement as of 5.x)
       - name: Set Java 11
